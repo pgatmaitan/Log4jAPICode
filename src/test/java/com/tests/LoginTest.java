@@ -54,8 +54,8 @@ public class LoginTest {
 		String title = driver.getTitle();
 		System.out.println(title);
 		log.info("login page title is--->"+title);
-		Assert.assertEquals(title,"#1 Free CRM for Any Business: Online Customer Relationship Software");
-		
+		//Assert.assertEquals(title,"#1 Free CRM for Any Business: Online Customer Relationship Software");
+		Assert.assertEquals(title,"#1 Free CRM software in the cloud for sales and service");
 		log.info("****************************** ending test case *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
 
